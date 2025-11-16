@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>BatchLogic Integration - Equipment Compatibility Guide | IntraSync Industrial</title>
+    <meta name="description" content="BatchLogic integrates with all major batch plant equipment: Command Alkon, ConTech, Astec, Liebherr, Hess, Elkon, Olin. Overlay, replacement, or hybrid integration modes available.">
+    <link rel="canonical" href="https://batchlogic.intrasyncindustrial.com/integration.html">
+
+    <meta property="og:title" content="BatchLogic - Universal Equipment Integration">
+    <meta property="og:description" content="Works with all major batching equipment brands through Modbus, Ethernet/IP, and Profinet protocols.">
+    <meta property="og:image" content="https://intrasyncindustrial.com/images/logo.jpg">
+    <meta property="og:url" content="https://batchlogic.intrasyncindustrial.com/integration.html">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="BatchLogic Equipment Integration">
+    <meta name="twitter:description" content="Seamless integration with Command, ConTech, Astec, and all other batch plant equipment.">
+
+    <meta name="keywords" content="batch plant integration, Command Alkon, ConTech, Astec, Liebherr, equipment compatibility, Modbus, Ethernet/IP, Profinet, batch controller integration">
+    <meta name="author" content="IntraSync Industrial">
+    <meta name="robots" content="index, follow">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "BatchLogic Equipment Integration",
+      "description": "How to integrate BatchLogic with existing batch plant equipment",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Assess Current Equipment",
+          "text": "Determine your existing batch plant controller and system specifications"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Choose Integration Mode",
+          "text": "Select Overlay, Full Replacement, or Hybrid integration approach"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Configure Protocols",
+          "text": "Set up Modbus, Ethernet/IP, or Profinet communication"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Deploy & Test",
+          "text": "Install hardware, configure sensors, and validate performance"
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-text {
+            background: linear-gradient(to right, #0ea5e9, #06b6d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .feature-icon {
+            background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
+            border-radius: 12px;
+            padding: 12px;
+        }
+        .brand-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+        .brand-card {
+            background: white;
+            border: 2px solid #e5e7eb;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        .brand-card:hover {
+            border-color: #06b6d4;
+            box-shadow: 0 10px 15px -3px rgba(6, 182, 212, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white/95 backdrop-blur-md sticky top-0 z-50 border-b border-cyan-200">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center" aria-label="IntraSync BatchLogic Home">
+                <img src="https://intrasyncindustrial.com/images/logo.jpg" alt="IntraSync Industrial Logo" class="h-12 mr-3" onerror="this.onerror=null;this.src='https://placehold.co/200x50/06b6d4/FFFFFF?text=BatchLogic';">
+                <span class="text-2xl font-bold gradient-text">BatchLogic</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="features.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">Features</a>
+                <a href="hardware.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">Hardware</a>
+                <a href="integration.html" class="text-cyan-600 font-medium">Integration</a>
+                <a href="automation.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">Automation</a>
+                <a href="about.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">About</a>
+                <a href="index.html#contact" class="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white font-semibold px-6 py-2.5 rounded-lg hover:from-cyan-600 hover:to-cyan-700 transition-all shadow-lg">Request Demo</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-br from-cyan-50 to-blue-50 py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-6">Works With Your Existing Equipment</h1>
+                    <p class="text-xl text-gray-600 leading-relaxed">BatchLogic integrates seamlessly with all major batching systems. Keep your equipment, upgrade your control and get modern automation capabilities.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Compatible Equipment -->
+        <section class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="max-w-6xl mx-auto">
+
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4 text-center">Compatible Equipment Brands</h2>
+                    <p class="text-xl text-gray-600 text-center mb-12">Proven compatibility with leading batch plant manufacturers worldwide</p>
+
+                    <div class="brand-grid mb-12">
+                        <div class="brand-card">
+                            <p class="font-bold text-gray-900 text-lg">Command Alkon</p>
+                            <p class="text-sm text-gray-600 mt-2">Full integration with Command systems via Modbus</p>
+                        </div>
+                        <div class="brand-card">
+                            <p class="font-bold text-gray-900 text-lg">ConTech</p>
+                            <p class="text-sm text-gray-600 mt-2">Ethernet/IP and serial protocols supported</p>
+                        </div>
+                        <div class="brand-card">
+                            <p class="font-bold text-gray-900 text-lg">Astec</p>
+                            <p class="text-sm text-gray-600 mt-2">PLC connectivity and overlay capable</p>
+                        </div>
+                        <div class="brand-card">
+                            <p class="font-bold text-gray-900 text-lg">Liebherr</p>
+                            <p class="text-sm text-gray-600 mt-2">Profinet support and control integration</p>
+                        </div>
+                        <div class="brand-card">
+                            <p class="font-bold text-gray-900 text-lg">Hess</p>
+                            <p class="text-sm text-gray-600 mt-2">Modbus compatible integration</p>
+                        </div>
+                        <div class="brand-card">
+                            <p class="font-bold text-gray-900 text-lg">Elkon</p>
+                            <p class="text-sm text-gray-600 mt-2">Direct PLC connection available</p>
+                        </div>
+                        <div class="brand-card">
+                            <p class="font-bold text-gray-900 text-lg">Olin</p>
+                            <p class="text-sm text-gray-600 mt-2">Legacy equipment supported</p>
+                        </div>
+                        <div class="brand-card">
+                            <p class="font-bold text-gray-900 text-lg">+ All Others</p>
+                            <p class="text-sm text-gray-600 mt-2">Custom integration available</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-blue-50 border-l-4 border-cyan-600 p-6 rounded">
+                        <p class="text-gray-700"><strong>Don't see your equipment listed?</strong> Contact us—we have successfully integrated with hundreds of batch plant models and configurations. Custom integration support is available for virtually any control system.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Integration Modes -->
+        <section class="py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">Three Integration Approaches</h2>
+
+                    <div class="grid md:grid-cols-3 gap-8 mb-16">
+                        <div class="bg-white rounded-2xl shadow-lg overflow-hidden border-t-4 border-cyan-600">
+                            <div class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8">
+                                <div class="flex items-center gap-3 mb-4">
+                                    <div class="feature-icon w-12 h-12 flex items-center justify-center">
+                                        <i data-lucide="layers" class="w-6 h-6 text-white"></i>
+                                    </div>
+                                    <h3 class="text-2xl font-bold text-gray-900">Overlay Mode</h3>
+                                </div>
+                            </div>
+                            <div class="p-8">
+                                <p class="text-gray-700 mb-6">Run BatchLogic alongside your existing controller. Maximum safety—original system continues operating while BatchLogic provides enhanced control and monitoring.</p>
+                                <h4 class="font-bold text-gray-900 mb-3">Best For:</h4>
+                                <ul class="space-y-2 text-gray-700 mb-6">
+                                    <li class="flex items-start gap-2">
+                                        <i data-lucide="check-circle" class="w-5 h-5 text-cyan-600 mt-0.5 flex-shrink-0"></i>
+                                        <span>Plants with critical uptime requirements</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i data-lucide="check-circle" class="w-5 h-5 text-cyan-600 mt-0.5 flex-shrink-0"></i>
+                                        <span>Gradual system migration</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i data-lucide="check-circle" class="w-5 h-5 text-cyan-600 mt-0.5 flex-shrink-0"></i>
+                                        <span>Minimal downtime installation</span>
+                                    </li>
+                                </ul>
+                                <div class="bg-cyan-50 p-4 rounded">
+                                    <p class="text-sm font-bold text-gray-900">Timeline: 1-2 days</p>
+                                    <p class="text-sm text-gray-600">Zero production downtime possible</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-2xl shadow-lg overflow-hidden border-t-4 border-cyan-600">
+                            <div class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8">
+                                <div class="flex items-center gap-3 mb-4">
+                                    <div class="feature-icon w-12 h-12 flex items-center justify-center">
+                                        <i data-lucide="replace" class="w-6 h-6 text-white"></i>
+                                    </div>
+                                    <h3 class="text-2xl font-bold text-gray-900">Full Replacement</h3>
+                                </div>
+                            </div>
+                            <div class="p-8">
+                                <p class="text-gray-700 mb-6">BatchLogic becomes your primary control system. Complete hardware replacement with new IntraSync controllers and sensors for maximum accuracy and features.</p>
+                                <h4 class="font-bold text-gray-900 mb-3">Best For:</h4>
+                                <ul class="space-y-2 text-gray-700 mb-6">
+                                    <li class="flex items-start gap-2">
+                                        <i data-lucide="check-circle" class="w-5 h-5 text-cyan-600 mt-0.5 flex-shrink-0"></i>
+                                        <span>End-of-life equipment replacement</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i data-lucide="check-circle" class="w-5 h-5 text-cyan-600 mt-0.5 flex-shrink-0"></i>
+                                        <span>Maximum feature access</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i data-lucide="check-circle" class="w-5 h-5 text-cyan-600 mt-0.5 flex-shrink-0"></i>
+                                        <span>Highest accuracy and performance</span>
+                                    </li>
+                                </ul>
+                                <div class="bg-cyan-50 p-4 rounded">
+                                    <p class="text-sm font-bold text-gray-900">Timeline: 3-5 days</p>
+                                    <p class="text-sm text-gray-600">Planned production downtime required</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-2xl shadow-lg overflow-hidden border-t-4 border-cyan-600">
+                            <div class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8">
+                                <div class="flex items-center gap-3 mb-4">
+                                    <div class="feature-icon w-12 h-12 flex items-center justify-center">
+                                        <i data-lucide="combine" class="w-6 h-6 text-white"></i>
+                                    </div>
+                                    <h3 class="text-2xl font-bold text-gray-900">Hybrid Mode</h3>
+                                </div>
+                            </div>
+                            <div class="p-8">
+                                <p class="text-gray-700 mb-6">Mix old and new capabilities. Keep existing equipment for some functions while BatchLogic controls critical processes like weighing, moisture, and temperature.</p>
+                                <h4 class="font-bold text-gray-900 mb-3">Best For:</h4>
+                                <ul class="space-y-2 text-gray-700 mb-6">
+                                    <li class="flex items-start gap-2">
+                                        <i data-lucide="check-circle" class="w-5 h-5 text-cyan-600 mt-0.5 flex-shrink-0"></i>
+                                        <span>Mixed-age equipment plants</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i data-lucide="check-circle" class="w-5 h-5 text-cyan-600 mt-0.5 flex-shrink-0"></i>
+                                        <span>Phased upgrades with budget constraints</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i data-lucide="check-circle" class="w-5 h-5 text-cyan-600 mt-0.5 flex-shrink-0"></i>
+                                        <span>Targeted accuracy improvements</span>
+                                    </li>
+                                </ul>
+                                <div class="bg-cyan-50 p-4 rounded">
+                                    <p class="text-sm font-bold text-gray-900">Timeline: 2-3 days</p>
+                                    <p class="text-sm text-gray-600">Minimal downtime and cost-effective</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Communication Protocols -->
+        <section class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">Communication Protocols</h2>
+
+                    <div class="grid md:grid-cols-3 gap-8 mb-12">
+                        <div class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <i data-lucide="wifi" class="w-8 h-8 text-cyan-600"></i>
+                                <h3 class="text-2xl font-bold text-gray-900">Modbus</h3>
+                            </div>
+                            <p class="text-gray-700 mb-6">Industry standard for industrial automation. Supported across RTU, TCP, and ASCII variants.</p>
+                            <ul class="space-y-2 text-gray-700 text-sm">
+                                <li><strong>Type:</strong> RTU, TCP, ASCII</li>
+                                <li><strong>Baud Rate:</strong> 300-115200 bps</li>
+                                <li><strong>Range:</strong> Up to 247 devices</li>
+                                <li><strong>Latency:</strong> &lt;10ms</li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <i data-lucide="network" class="w-8 h-8 text-cyan-600"></i>
+                                <h3 class="text-2xl font-bold text-gray-900">EtherNet/IP</h3>
+                            </div>
+                            <p class="text-gray-700 mb-6">Ethernet-based protocol for high-speed industrial communication. ODVA certified.</p>
+                            <ul class="space-y-2 text-gray-700 text-sm">
+                                <li><strong>Standard:</strong> ODVA EtherNet/IP</li>
+                                <li><strong>Speed:</strong> 100 Mbps - 1 Gbps</li>
+                                <li><strong>Range:</strong> Up to 500 devices</li>
+                                <li><strong>Latency:</strong> &lt;5ms</li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-xl shadow-lg">
+                            <div class="flex items-center gap-3 mb-4">
+                                <i data-lucide="zap" class="w-8 h-8 text-cyan-600"></i>
+                                <h3 class="text-2xl font-bold text-gray-900">Profinet</h3>
+                            </div>
+                            <p class="text-gray-700 mb-6">Real-time Ethernet for mission-critical applications. Full IEC 61158 compliance.</p>
+                            <ul class="space-y-2 text-gray-700 text-sm">
+                                <li><strong>Type:</strong> PROFINET IO</li>
+                                <li><strong>Speed:</strong> 100 Mbps - 1 Gbps</li>
+                                <li><strong>Cycle Time:</strong> 1-100ms</li>
+                                <li><strong>Devices:</strong> Up to 1000</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-xl">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Additional Connection Options</h3>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <h4 class="font-bold text-gray-900 mb-2">Serial Connections</h4>
+                                <ul class="space-y-2 text-gray-700">
+                                    <li>RS-232 (legacy)</li>
+                                    <li>RS-485 (multi-drop)</li>
+                                    <li>USB industrial ports</li>
+                                    <li>Custom serial protocols</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 mb-2">Wireless & Cloud</h4>
+                                <ul class="space-y-2 text-gray-700">
+                                    <li>WiFi (802.11ac)</li>
+                                    <li>LTE/4G cellular</li>
+                                    <li>Cloud API integration</li>
+                                    <li>MQTT publish-subscribe</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Integration Process -->
+        <section class="py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">Integration Process</h2>
+
+                    <div class="space-y-8">
+                        <div class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-cyan-600">
+                            <div class="flex items-start gap-4">
+                                <div class="bg-cyan-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">1</div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-gray-900 mb-2">Assessment & Planning</h3>
+                                    <p class="text-gray-700 mb-3">Our engineers evaluate your current equipment, identify integration points, and develop a customized implementation plan.</p>
+                                    <p class="text-sm text-gray-600"><strong>Duration:</strong> 1-2 weeks | <strong>Effort:</strong> Planning and documentation</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-cyan-600">
+                            <div class="flex items-start gap-4">
+                                <div class="bg-cyan-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">2</div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-gray-900 mb-2">Configuration & Testing</h3>
+                                    <p class="text-gray-700 mb-3">Set up protocol drivers, configure I/O mappings, and perform comprehensive testing in a controlled environment before deployment.</p>
+                                    <p class="text-sm text-gray-600"><strong>Duration:</strong> 1-2 weeks | <strong>Effort:</strong> Off-site configuration and validation</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-cyan-600">
+                            <div class="flex items-start gap-4">
+                                <div class="bg-cyan-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">3</div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-gray-900 mb-2">Installation & Integration</h3>
+                                    <p class="text-gray-700 mb-3">Our field team installs hardware, connects communication cables, and integrates BatchLogic with your existing control systems with minimal production impact.</p>
+                                    <p class="text-sm text-gray-600"><strong>Duration:</strong> 1-5 days | <strong>Effort:</strong> On-site installation and commissioning</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-cyan-600">
+                            <div class="flex items-start gap-4">
+                                <div class="bg-cyan-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">4</div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-gray-900 mb-2">Validation & Training</h3>
+                                    <p class="text-gray-700 mb-3">Run test batches, validate accuracy, and conduct comprehensive training for all plant staff across all shifts and departments.</p>
+                                    <p class="text-sm text-gray-600"><strong>Duration:</strong> 3-5 days | <strong>Effort:</strong> On-site validation and operator training</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-cyan-600">
+                            <div class="flex items-start gap-4">
+                                <div class="bg-cyan-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">5</div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-gray-900 mb-2">Go-Live & Support</h3>
+                                    <p class="text-gray-700 mb-3">Transition to full production with on-site support team present. Dedicated 24/7 support for first 30 days, then ongoing support as needed.</p>
+                                    <p class="text-sm text-gray-600"><strong>Duration:</strong> 1-2 weeks | <strong>Effort:</strong> Continuous monitoring and optimization</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">Integration FAQ</h2>
+
+                    <div class="space-y-6">
+                        <details class="bg-gray-50 p-6 rounded-lg cursor-pointer group">
+                            <summary class="flex items-center justify-between font-bold text-gray-900 text-lg">
+                                <span>Will BatchLogic work with my current equipment?</span>
+                                <i data-lucide="plus-circle" class="w-6 h-6 text-cyan-600 group-open:hidden"></i>
+                                <i data-lucide="minus-circle" class="w-6 h-6 text-cyan-600 hidden group-open:block"></i>
+                            </summary>
+                            <p class="text-gray-700 mt-4">Yes. BatchLogic integrates with virtually all modern batch plant equipment including Command Alkon, ConTech, Astec, Liebherr, Hess, Elkon, Olin, and many others. Even legacy equipment can be integrated through serial or PLC connections. Contact us with your equipment specifications for confirmation.</p>
+                        </details>
+
+                        <details class="bg-gray-50 p-6 rounded-lg cursor-pointer group">
+                            <summary class="flex items-center justify-between font-bold text-gray-900 text-lg">
+                                <span>What if I don't have a Modbus or Ethernet/IP controller?</span>
+                                <i data-lucide="plus-circle" class="w-6 h-6 text-cyan-600 group-open:hidden"></i>
+                                <i data-lucide="minus-circle" class="w-6 h-6 text-cyan-600 hidden group-open:block"></i>
+                            </summary>
+                            <p class="text-gray-700 mt-4">No problem. We can integrate via serial connections (RS-232/485), custom PLC drivers, or overlay mode where BatchLogic runs parallel to your existing system. Our engineers will work with you to find the best integration approach.</p>
+                        </details>
+
+                        <details class="bg-gray-50 p-6 rounded-lg cursor-pointer group">
+                            <summary class="flex items-center justify-between font-bold text-gray-900 text-lg">
+                                <span>How long does integration typically take?</span>
+                                <i data-lucide="plus-circle" class="w-6 h-6 text-cyan-600 group-open:hidden"></i>
+                                <i data-lucide="minus-circle" class="w-6 h-6 text-cyan-600 hidden group-open:block"></i>
+                            </summary>
+                            <p class="text-gray-700 mt-4">Timeline varies by integration mode: Overlay mode (1-2 days), Hybrid mode (2-3 days), Full Replacement (3-5 days). Add 1-2 weeks for initial assessment and configuration. Rush integrations available with additional fees.</p>
+                        </details>
+
+                        <details class="bg-gray-50 p-6 rounded-lg cursor-pointer group">
+                            <summary class="flex items-center justify-between font-bold text-gray-900 text-lg">
+                                <span>Can I run BatchLogic without replacing my existing controller?</span>
+                                <i data-lucide="plus-circle" class="w-6 h-6 text-cyan-600 group-open:hidden"></i>
+                                <i data-lucide="minus-circle" class="w-6 h-6 text-cyan-600 hidden group-open:block"></i>
+                            </summary>
+                            <p class="text-gray-700 mt-4">Yes. Overlay mode allows BatchLogic to run alongside your existing controller. Your original system continues operating while BatchLogic provides enhanced monitoring and control. You can migrate to full control gradually.</p>
+                        </details>
+
+                        <details class="bg-gray-50 p-6 rounded-lg cursor-pointer group">
+                            <summary class="flex items-center justify-between font-bold text-gray-900 text-lg">
+                                <span>Will implementation require production downtime?</span>
+                                <i data-lucide="plus-circle" class="w-6 h-6 text-cyan-600 group-open:hidden"></i>
+                                <i data-lucide="minus-circle" class="w-6 h-6 text-cyan-600 hidden group-open:block"></i>
+                            </summary>
+                            <p class="text-gray-700 mt-4">Depends on your integration approach. Overlay mode can be zero-downtime. Full replacement typically requires 2-4 hours of planned downtime. We work with you to schedule during maintenance windows to minimize impact.</p>
+                        </details>
+
+                        <details class="bg-gray-50 p-6 rounded-lg cursor-pointer group">
+                            <summary class="flex items-center justify-between font-bold text-gray-900 text-lg">
+                                <span>What technical support is provided during integration?</span>
+                                <i data-lucide="plus-circle" class="w-6 h-6 text-cyan-600 group-open:hidden"></i>
+                                <i data-lucide="minus-circle" class="w-6 h-6 text-cyan-600 hidden group-open:block"></i>
+                            </summary>
+                            <p class="text-gray-700 mt-4">Full support throughout integration: On-site engineers for installation and commissioning, 24/7 technical support during first 30 days, remote support anytime, and dedicated support team for the first year. We're committed to your success.</p>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-gradient-to-br from-cyan-500 to-cyan-600 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-4">Ready to Integrate BatchLogic?</h2>
+                <p class="text-xl text-cyan-50 mb-8 max-w-2xl mx-auto">Our engineers will assess your equipment and develop a customized integration plan—completely free.</p>
+                <a href="index.html#contact" class="inline-block bg-white text-cyan-600 font-bold px-10 py-4 rounded-lg text-lg hover:bg-gray-100 transition-all shadow-lg">Start Integration Planning</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-6 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src="https://intrasyncindustrial.com/images/logo.jpg" alt="IntraSync Industrial Logo" class="h-10 mr-3" onerror="this.onerror=null;this.src='https://placehold.co/160x40/FFFFFF/000000?text=IntraSync';">
+                        <span class="text-xl font-bold gradient-text">BatchLogic</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">State-of-the-art batch plant control system for concrete producers.</p>
+                    <address class="mt-4 text-gray-400 not-italic">
+                        <p>1401 21st Street Suite R<br>Sacramento, CA 95811</p>
+                        <p class="mt-2"><a href="tel:+17075643666" class="hover:text-white">(707) 564-3666</a></p>
+                    </address>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4 tracking-wider uppercase text-gray-400">Platform</h4>
+                    <ul class="space-y-3">
+                        <li><a href="features.html" class="text-gray-300 hover:text-white">All Features</a></li>
+                        <li><a href="hardware.html" class="text-gray-300 hover:text-white">Hardware</a></li>
+                        <li><a href="integration.html" class="text-gray-300 hover:text-white">Integration</a></li>
+                        <li><a href="automation.html" class="text-gray-300 hover:text-white">Automation</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4 tracking-wider uppercase text-gray-400">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="about.html" class="text-gray-300 hover:text-white">About Us</a></li>
+                        <li><a href="faq.html" class="text-gray-300 hover:text-white">FAQ</a></li>
+                        <li><a href="index.html#contact" class="text-gray-300 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4 tracking-wider uppercase text-gray-400">Legal</h4>
+                    <ul class="space-y-3">
+                        <li><a href="privacy.html" class="text-gray-300 hover:text-white">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-300 hover:text-white">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-16 border-t border-gray-800 pt-8 text-center text-gray-500">
+                <p>&copy; 2025 IntraSync Industrial. All rights reserved.</p>
+                <p class="mt-2 text-sm">Part of the IntraSync platform family</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
