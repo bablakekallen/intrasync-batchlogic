@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quality Control for Batch Plant Operations - BatchLogic | IntraSync Industrial</title>
+    <meta name="description" content="Precision batch plant quality control with 99.9% accuracy monitoring. Integrates with AggLogic for material data and CastLogic Verify for complete precast traceability from batch to finished product.">
+
+    <link rel="canonical" href="https://batchlogic.intrasyncindustrial.com/qc.html">
+
+    <meta property="og:title" content="BatchLogic Quality Control - Precision Batch Plant QC">
+    <meta property="og:description" content="99.9% batch accuracy with full integration to AggLogic and CastLogic Verify.">
+    <meta property="og:image" content="https://intrasyncindustrial.com/images/logo.jpg">
+    <meta property="og:url" content="https://batchlogic.intrasyncindustrial.com/qc.html">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="BatchLogic Quality Control">
+    <meta name="twitter:description" content="Precision batch QC with AggLogic and CastLogic Verify integration.">
+
+    <meta name="keywords" content="batch plant quality control, concrete batching QC, mix design validation, batch accuracy, temperature monitoring, slump control, PCI compliance, concrete traceability">
+    <meta name="author" content="IntraSync Industrial">
+    <meta name="robots" content="index, follow">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "BatchLogic Quality Control",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Quality Control Software",
+      "description": "Precision batch plant quality control with integration to AggLogic for material data and CastLogic Verify for precast traceability.",
+      "provider": {
+        "@type": "Organization",
+        "name": "IntraSync Industrial"
+      }
+    }
+    </script>
+
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-text { background: linear-gradient(to right, #0ea5e9, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero-bg { background: linear-gradient(135deg, #e0f2fe 0%, #cffafe 100%); }
+        .feature-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(6, 182, 212, 0.1);
+            border-color: #06b6d4;
+        }
+        .feature-icon {
+            background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
+            border-radius: 12px;
+            padding: 12px;
+        }
+        .flow-card {
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            border: 2px solid #e2e8f0;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        .flow-card:hover {
+            border-color: #06b6d4;
+            transform: scale(1.02);
+        }
+        .flow-arrow {
+            color: #06b6d4;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white/95 backdrop-blur-md sticky top-0 z-50 border-b border-cyan-200">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center" aria-label="IntraSync BatchLogic Home">
+                <img src="https://intrasyncindustrial.com/images/logo.jpg" alt="IntraSync Industrial Logo" class="h-12 mr-3" onerror="this.onerror=null;this.src='https://placehold.co/200x50/06b6d4/FFFFFF?text=BatchLogic';">
+                <span class="text-2xl font-bold gradient-text">BatchLogic</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="features.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">Features</a>
+                <a href="hardware.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">Hardware</a>
+                <a href="integration.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">Integration</a>
+                <a href="qc.html" class="text-cyan-600 font-semibold">Quality Control</a>
+                <a href="blog.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">Blog</a>
+                <a href="contact.html" class="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white font-semibold px-6 py-2.5 rounded-lg hover:from-cyan-600 hover:to-cyan-700 transition-all transform hover:scale-105 shadow-lg">Request Demo</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-bg py-24 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <div class="inline-flex items-center bg-white/80 backdrop-blur px-4 py-2 rounded-full text-cyan-700 font-medium mb-8 shadow-lg">
+                    <i data-lucide="shield-check" class="w-5 h-5 mr-2"></i>
+                    Unified Quality Control
+                </div>
+                <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight tracking-tight">
+                    Quality Control for <span class="gradient-text">Batch Plant Operations</span>
+                </h1>
+                <p class="mt-8 max-w-4xl mx-auto text-lg md:text-xl text-gray-700 leading-relaxed">
+                    BatchLogic delivers 99.9% batch accuracy with real-time QC monitoring. Receive aggregate quality data from AggLogic for intelligent mix adjustments, and flow batch data to CastLogic Verify for complete precast traceability.
+                </p>
+                <div class="mt-12 flex flex-wrap justify-center items-center gap-4">
+                    <a href="#features" class="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white font-bold px-10 py-5 rounded-lg text-lg hover:from-cyan-600 hover:to-cyan-700 transition-all transform hover:scale-105 shadow-xl">Explore QC Features</a>
+                    <a href="#integration" class="bg-white text-cyan-600 font-bold px-10 py-5 rounded-lg text-lg hover:bg-cyan-50 transition-all transform hover:scale-105 border-2 border-cyan-300 shadow-xl">See Integration</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- QC Features Section -->
+        <section id="features" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">BatchLogic QC Features</h2>
+                    <p class="mt-6 max-w-3xl mx-auto text-lg text-gray-600 leading-relaxed">
+                        Precision quality control for every batch with real-time monitoring and automated validation
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+                    <article class="feature-card">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="feature-icon w-14 h-14 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="gauge" class="w-7 h-7 text-white"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900">99.9% Batch Accuracy</h3>
+                        </div>
+                        <p class="text-gray-600">Proprietary load cells and sensors deliver industry-leading accuracy. Real-time monitoring of every material with automatic drift compensation and calibration alerts.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="feature-icon w-14 h-14 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="droplets" class="w-7 h-7 text-white"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900">Moisture Compensation</h3>
+                        </div>
+                        <p class="text-gray-600">Real-time moisture sensing with automatic water adjustment. Receives aggregate moisture data from AggLogic for even more precise compensation.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="feature-icon w-14 h-14 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="thermometer" class="w-7 h-7 text-white"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900">Temperature Monitoring</h3>
+                        </div>
+                        <p class="text-gray-600">Multi-zone temperature tracking with automatic ice/heat adjustments. Ensure consistent concrete temperature year-round for optimal strength development.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="feature-icon w-14 h-14 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="activity" class="w-7 h-7 text-white"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900">Slump Prediction</h3>
+                        </div>
+                        <p class="text-gray-600">AI-powered slump prediction based on aggregate properties, mix design, and environmental conditions. Validate target slump before the truck leaves.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="feature-icon w-14 h-14 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="test-tube" class="w-7 h-7 text-white"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900">Admixture Accuracy</h3>
+                        </div>
+                        <p class="text-gray-600">Precision chemical dispensing with flow meters and peristaltic pumps. Multi-admixture support with sequencing control and dosage verification.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="feature-icon w-14 h-14 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="check-circle" class="w-7 h-7 text-white"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900">Mix Validation</h3>
+                        </div>
+                        <p class="text-gray-600">Automated mix design validation before batching. Verify material certifications, check tolerances, and ensure compliance with project specifications.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="feature-icon w-14 h-14 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="bell-ring" class="w-7 h-7 text-white"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900">Real-Time QC Alerts</h3>
+                        </div>
+                        <p class="text-gray-600">Instant notifications when batches deviate from specifications. Alerts to operators, QC managers, and dispatch with configurable thresholds.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="feature-icon w-14 h-14 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="file-text" class="w-7 h-7 text-white"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900">Batch Tickets & Records</h3>
+                        </div>
+                        <p class="text-gray-600">Complete batch documentation with material weights, temperatures, times, and QC status. Digital tickets flow to dispatch and CastLogic Verify.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Flow Section -->
+        <section id="integration" class="py-24 bg-gradient-to-br from-cyan-50 to-blue-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">Unified QC Data Flow</h2>
+                    <p class="mt-6 max-w-3xl mx-auto text-lg text-gray-600 leading-relaxed">
+                        BatchLogic connects upstream aggregate quality with downstream precast production
+                    </p>
+                </div>
+
+                <!-- Visual Data Flow -->
+                <div class="max-w-6xl mx-auto">
+                    <div class="grid md:grid-cols-5 gap-4 items-center mb-16">
+                        <!-- AggLogic -->
+                        <div class="flow-card border-orange-400 bg-gradient-to-br from-orange-50 to-amber-50">
+                            <div class="w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                <i data-lucide="mountain" class="w-8 h-8 text-white"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-orange-700 mb-2">AggLogic</h3>
+                            <p class="text-sm text-gray-600">Aggregate & Readymix QC</p>
+                            <ul class="mt-4 text-xs text-left text-gray-600 space-y-1">
+                                <li>• Gradation analysis</li>
+                                <li>• Moisture content</li>
+                                <li>• Certifications</li>
+                                <li>• Supplier scores</li>
+                            </ul>
+                        </div>
+
+                        <!-- Arrow -->
+                        <div class="hidden md:flex justify-center">
+                            <div class="flow-arrow">→</div>
+                        </div>
+
+                        <!-- BatchLogic -->
+                        <div class="flow-card border-cyan-400 bg-gradient-to-br from-cyan-50 to-blue-50 ring-4 ring-cyan-200">
+                            <div class="w-16 h-16 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                <i data-lucide="factory" class="w-8 h-8 text-white"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-cyan-700 mb-2">BatchLogic</h3>
+                            <p class="text-sm text-gray-600">You Are Here</p>
+                            <ul class="mt-4 text-xs text-left text-gray-600 space-y-1">
+                                <li>• 99.9% accuracy</li>
+                                <li>• Temperature/slump</li>
+                                <li>• Mix validation</li>
+                                <li>• Batch records</li>
+                            </ul>
+                        </div>
+
+                        <!-- Arrow -->
+                        <div class="hidden md:flex justify-center">
+                            <div class="flow-arrow">→</div>
+                        </div>
+
+                        <!-- CastLogic Verify -->
+                        <div class="flow-card border-purple-400 bg-gradient-to-br from-purple-50 to-indigo-50">
+                            <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                <i data-lucide="shield-check" class="w-8 h-8 text-white"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-purple-700 mb-2">CastLogic Verify</h3>
+                            <p class="text-sm text-gray-600">Precast QC & Compliance</p>
+                            <ul class="mt-4 text-xs text-left text-gray-600 space-y-1">
+                                <li>• AI inspections</li>
+                                <li>• Defect tracking</li>
+                                <li>• PCI compliance</li>
+                                <li>• Full traceability</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Integration Details -->
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <!-- AggLogic Integration -->
+                        <div class="bg-white p-8 rounded-2xl shadow-xl">
+                            <div class="flex items-center gap-4 mb-6">
+                                <div class="w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl flex items-center justify-center">
+                                    <i data-lucide="mountain" class="w-6 h-6 text-white"></i>
+                                </div>
+                                <h3 class="text-2xl font-bold text-gray-900">Integration with AggLogic</h3>
+                            </div>
+                            <p class="text-gray-600 mb-6">Receive aggregate quality data from AggLogic for intelligent batch optimization:</p>
+                            <ul class="space-y-3">
+                                <li class="flex items-start gap-3">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-orange-500 mt-0.5 flex-shrink-0"></i>
+                                    <span class="text-gray-700"><strong>Gradation data</strong> triggers automatic mix design adjustments</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-orange-500 mt-0.5 flex-shrink-0"></i>
+                                    <span class="text-gray-700"><strong>Moisture readings</strong> enable precise water compensation</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-orange-500 mt-0.5 flex-shrink-0"></i>
+                                    <span class="text-gray-700"><strong>Material certifications</strong> validated before batching</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-orange-500 mt-0.5 flex-shrink-0"></i>
+                                    <span class="text-gray-700"><strong>Quality alerts</strong> received when aggregates deviate</span>
+                                </li>
+                            </ul>
+                            <a href="https://agglogic.intrasyncindustrial.com/qc.html" class="inline-flex items-center mt-6 text-orange-600 font-semibold hover:text-orange-700">
+                                Learn about AggLogic QC <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+                            </a>
+                        </div>
+
+                        <!-- CastLogic Verify Integration -->
+                        <div class="bg-white p-8 rounded-2xl shadow-xl">
+                            <div class="flex items-center gap-4 mb-6">
+                                <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center">
+                                    <i data-lucide="shield-check" class="w-6 h-6 text-white"></i>
+                                </div>
+                                <h3 class="text-2xl font-bold text-gray-900">Integration with CastLogic Verify</h3>
+                            </div>
+                            <p class="text-gray-600 mb-6">Batch data flows to CastLogic's Verify module for complete precast quality management:</p>
+                            <ul class="space-y-3">
+                                <li class="flex items-start gap-3">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-purple-500 mt-0.5 flex-shrink-0"></i>
+                                    <span class="text-gray-700"><strong>Batch records</strong> linked to precast production</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-purple-500 mt-0.5 flex-shrink-0"></i>
+                                    <span class="text-gray-700"><strong>Temperature/slump</strong> correlated with strength tests</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-purple-500 mt-0.5 flex-shrink-0"></i>
+                                    <span class="text-gray-700"><strong>Mix compliance</strong> documented for each pour</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-purple-500 mt-0.5 flex-shrink-0"></i>
+                                    <span class="text-gray-700"><strong>Non-conformances</strong> trigger Verify workflows</span>
+                                </li>
+                            </ul>
+                            <a href="https://intrasyncindustrial.com/verify.html" class="inline-flex items-center mt-6 text-purple-600 font-semibold hover:text-purple-700">
+                                Learn about CastLogic Verify <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CastLogic Verify Deep Dive -->
+        <section class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <div class="inline-flex items-center bg-purple-100 px-4 py-2 rounded-full text-purple-700 font-medium mb-6">
+                        <i data-lucide="shield-check" class="w-5 h-5 mr-2"></i>
+                        CastLogic ERP Module
+                    </div>
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">CastLogic Verify</h2>
+                    <p class="mt-6 max-w-3xl mx-auto text-lg text-gray-600 leading-relaxed">
+                        Your batch data becomes even more powerful when combined with CastLogic's comprehensive precast quality management
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+                    <article class="bg-gradient-to-br from-purple-50 to-indigo-50 p-8 rounded-2xl border border-purple-200">
+                        <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-6">
+                            <i data-lucide="eye" class="w-7 h-7 text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">AI Computer Vision Inspections</h3>
+                        <p class="text-gray-600">Automated defect detection on finished precast pieces. Link surface defects back to batch parameters—temperature, slump, mix design—for root cause analysis.</p>
+                    </article>
+
+                    <article class="bg-gradient-to-br from-purple-50 to-indigo-50 p-8 rounded-2xl border border-purple-200">
+                        <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-6">
+                            <i data-lucide="alert-triangle" class="w-7 h-7 text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Defect Tracking & NCRs</h3>
+                        <p class="text-gray-600">Non-conformance logging with photo documentation. Root cause analysis traces defects back to specific batch tickets for corrective action.</p>
+                    </article>
+
+                    <article class="bg-gradient-to-br from-purple-50 to-indigo-50 p-8 rounded-2xl border border-purple-200">
+                        <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-6">
+                            <i data-lucide="award" class="w-7 h-7 text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">PCI Compliance Management</h3>
+                        <p class="text-gray-600">Built-in PCI certification templates. Batch records, material certifications, and inspection results combine for complete audit documentation.</p>
+                    </article>
+
+                    <article class="bg-gradient-to-br from-purple-50 to-indigo-50 p-8 rounded-2xl border border-purple-200">
+                        <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-6">
+                            <i data-lucide="test-tube" class="w-7 h-7 text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Strength Test Correlation</h3>
+                        <p class="text-gray-600">7-day, 14-day, and 28-day cylinder tracking linked to batch data. Correlate strength results with temperature, slump, and mix parameters for continuous improvement.</p>
+                    </article>
+
+                    <article class="bg-gradient-to-br from-purple-50 to-indigo-50 p-8 rounded-2xl border border-purple-200">
+                        <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-6">
+                            <i data-lucide="clipboard-list" class="w-7 h-7 text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Digital QC Checklists</h3>
+                        <p class="text-gray-600">Custom inspection templates with conditional logic. Mobile app for field use with batch data auto-populated from BatchLogic records.</p>
+                    </article>
+
+                    <article class="bg-gradient-to-br from-purple-50 to-indigo-50 p-8 rounded-2xl border border-purple-200">
+                        <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-6">
+                            <i data-lucide="history" class="w-7 h-7 text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Complete Audit Trail</h3>
+                        <p class="text-gray-600">Full traceability from batch ticket through production to delivered precast piece. Every material, every measurement, every inspection—documented and linked.</p>
+                    </article>
+                </div>
+
+                <div class="text-center mt-12">
+                    <a href="https://intrasyncindustrial.com/verify.html" class="inline-block bg-gradient-to-r from-purple-500 to-purple-600 text-white font-bold px-10 py-5 rounded-lg text-lg hover:from-purple-600 hover:to-purple-700 transition-all transform hover:scale-105 shadow-xl">
+                        Explore CastLogic Verify
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Value Proposition -->
+        <section class="py-20 bg-gradient-to-r from-cyan-500 to-cyan-600 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-extrabold mb-6">One Unified QC Ecosystem</h2>
+                <p class="text-xl text-cyan-100 max-w-3xl mx-auto mb-10">
+                    Stop managing quality in silos. With IntraSync's integrated platform, aggregate data flows into your batch plant, and batch data flows into precast quality management—creating complete traceability from source material to finished product.
+                </p>
+                <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-12">
+                    <div class="bg-white/10 rounded-xl p-6">
+                        <div class="text-4xl font-bold mb-2">99.9%</div>
+                        <p class="text-cyan-100">Batch Accuracy</p>
+                    </div>
+                    <div class="bg-white/10 rounded-xl p-6">
+                        <div class="text-4xl font-bold mb-2">100%</div>
+                        <p class="text-cyan-100">Batch Traceability</p>
+                    </div>
+                    <div class="bg-white/10 rounded-xl p-6">
+                        <div class="text-4xl font-bold mb-2">Zero</div>
+                        <p class="text-cyan-100">Manual Data Entry</p>
+                    </div>
+                </div>
+                <a href="contact.html" class="inline-block bg-white text-cyan-600 font-bold px-10 py-5 rounded-lg text-lg hover:bg-cyan-50 transition-all transform hover:scale-105 shadow-xl">
+                    Schedule a Demo
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">See Unified QC in Action</h2>
+                    <p class="mt-6 max-w-3xl mx-auto text-lg text-gray-600 leading-relaxed">
+                        Let us show you how BatchLogic's QC integrates with AggLogic and CastLogic Verify for complete quality management
+                    </p>
+                </div>
+                <div class="max-w-2xl mx-auto">
+                    <div class="bg-gradient-to-br from-gray-50 to-cyan-50 p-8 md:p-10 rounded-lg shadow-2xl border border-cyan-200">
+                        <form action="https://formspree.io/f/meoknpor" method="POST" class="space-y-6">
+                            <input type="hidden" name="product" value="BatchLogic QC Integration">
+                            <div><label for="name" class="block text-sm font-medium text-gray-700">Full Name</label><input type="text" name="name" id="name" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-3 border focus:border-cyan-500 focus:ring-cyan-500"></div>
+                            <div><label for="email" class="block text-sm font-medium text-gray-700">Work Email</label><input type="email" name="email" id="email" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-3 border focus:border-cyan-500 focus:ring-cyan-500"></div>
+                            <div><label for="company" class="block text-sm font-medium text-gray-700">Company Name</label><input type="text" name="company" id="company" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-3 border focus:border-cyan-500 focus:ring-cyan-500"></div>
+                            <div><label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label><input type="tel" name="phone" id="phone" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-3 border focus:border-cyan-500 focus:ring-cyan-500"></div>
+                            <div><label for="message" class="block text-sm font-medium text-gray-700">Tell us about your batch plant</label><textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-3 border focus:border-cyan-500 focus:ring-cyan-500"></textarea></div>
+                            <div><button type="submit" class="w-full justify-center rounded-md border border-transparent bg-gradient-to-r from-cyan-500 to-cyan-600 py-4 px-4 text-base font-bold text-white shadow-lg hover:from-cyan-600 hover:to-cyan-700 transition-all">Request Demo</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-6 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src="https://intrasyncindustrial.com/images/logo.jpg" alt="IntraSync Industrial Logo" class="h-10 mr-3" onerror="this.onerror=null;this.src='https://placehold.co/160x40/FFFFFF/000000?text=IntraSync';">
+                        <span class="text-xl font-bold gradient-text">BatchLogic</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">Precision batch plant control with integrated quality management.</p>
+                     <address class="mt-4 text-gray-400 not-italic">
+                        <p>1401 21st Street Suite R<br>Sacramento, CA 95811</p>
+                        <p class="mt-2"><a href="tel:+17075643666" class="hover:text-white">(707) 564-3666</a></p>
+                    </address>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4 tracking-wider uppercase text-gray-400">Platform</h4>
+                    <ul class="space-y-3">
+                        <li><a href="features.html" class="text-gray-300 hover:text-white">All Features</a></li>
+                        <li><a href="hardware.html" class="text-gray-300 hover:text-white">Hardware</a></li>
+                        <li><a href="integration.html" class="text-gray-300 hover:text-white">Integration</a></li>
+                        <li><a href="qc.html" class="text-gray-300 hover:text-white">Quality Control</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4 tracking-wider uppercase text-gray-400">IntraSync Products</h4>
+                    <ul class="space-y-3">
+                        <li><a href="https://intrasyncindustrial.com" class="text-gray-300 hover:text-white">CastLogic ERP</a></li>
+                        <li><a href="https://agglogic.intrasyncindustrial.com" class="text-gray-300 hover:text-white">AggLogic</a></li>
+                        <li><a href="https://intrasyncindustrial.com/verify.html" class="text-gray-300 hover:text-white">CastLogic Verify</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4 tracking-wider uppercase text-gray-400">Resources</h4>
+                    <ul class="space-y-3">
+                        <li><a href="blog.html" class="text-gray-300 hover:text-white">Blog</a></li>
+                        <li><a href="about.html" class="text-gray-300 hover:text-white">About Us</a></li>
+                        <li><a href="faq.html" class="text-gray-300 hover:text-white">FAQ</a></li>
+                        <li><a href="contact.html" class="text-gray-300 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-16 border-t border-gray-800 pt-8 text-center text-gray-500">
+                <p>&copy; 2025 IntraSync Industrial. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
