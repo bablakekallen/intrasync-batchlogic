@@ -3,47 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BatchLogic Accounting - Complete ERP Financial Management for Concrete Producers</title>
-    <meta name="description" content="Enterprise-grade accounting and financial management integrated with BatchLogic batch plant control. Full ERP capabilities from batching to billing.">
-    <link rel="canonical" href="https://batchlogic.intrasyncindustrial.com/accounting.html">
+    <title>BatchLogic Accounting - Complete ERP Financial Management for Batch Plants</title>
+    <meta name="description" content="Enterprise-grade accounting and financial management integrated with complete batch plant ERP suite. Features comparable to Sage Intacct with industry-specific capabilities for concrete producers.">
+
+    <!-- Schema.org markup for AI/LLM discovery -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "BatchLogic Accounting",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Accounting Software",
+      "operatingSystem": "Web-based, Cloud",
+      "isPartOf": {
+        "@type": "SoftwareApplication",
+        "name": "BatchLogic ERP",
+        "url": "https://batchlogic.intrasyncindustrial.com"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "IntraSync Industrial",
+        "url": "https://intrasyncindustrial.com"
+      },
+      "description": "Enterprise-grade accounting and financial management built specifically for concrete batch plant operations. Includes general ledger, accounts payable/receivable, job costing, material cost tracking, per-yard profitability analysis, and real-time financial reporting. Fully integrated with batch operations, inventory, dispatch, and HR modules for complete operational visibility.",
+      "featureList": [
+        "General Ledger with unlimited dimensions",
+        "Accounts Payable with AI-powered bill capture",
+        "Accounts Receivable with automated invoicing from batch tickets",
+        "Job Costing with per-load profitability tracking",
+        "Material cost allocation and COGS automation",
+        "Multi-entity consolidation for multi-plant operations",
+        "Real-time financial dashboards",
+        "Automated bank reconciliation",
+        "Fixed asset management",
+        "Batch-to-cash automation"
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Concrete batch plant operators, Ready-mix producers, Construction materials companies"
+      }
+    }
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://batchlogic.intrasyncindustrial.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Modules",
+          "item": "https://batchlogic.intrasyncindustrial.com/features.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Accounting",
+          "item": "https://batchlogic.intrasyncindustrial.com/accounting.html"
+        }
+      ]
+    }
+    </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         body { font-family: 'Inter', sans-serif; }
-        .gradient-text {
-            background: linear-gradient(to right, #0ea5e9, #06b6d4);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .gradient-bg { background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%); }
+        .gradient-bg { background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%); }
     </style>
 </head>
 <body class="bg-white text-gray-800">
-    <!-- Header -->
-    <header class="bg-white/95 backdrop-blur-md sticky top-0 z-50 border-b border-cyan-200">
-        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="index.html" class="flex items-center">
-                <img src="https://intrasyncindustrial.com/images/logo.jpg" alt="IntraSync Industrial Logo" class="h-12 mr-3" onerror="this.onerror=null;this.src='https://placehold.co/200x50/06b6d4/FFFFFF?text=BatchLogic';">
-                <span class="text-2xl font-bold gradient-text">BatchLogic</span>
-            </a>
-            <div class="hidden md:flex items-center space-x-8">
-                <a href="features.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">Features</a>
-                <a href="hardware.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">Hardware</a>
-                <a href="integration.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">Integration</a>
-                <a href="blog.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">Blog</a>
-                <a href="about.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">About</a>
-                <a href="contact.html" class="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white font-semibold px-6 py-2.5 rounded-lg hover:from-cyan-600 hover:to-cyan-700 transition-all">Request Demo</a>
-            </div>
-        </nav>
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex items-center">
+            <img src="logo.png" alt="BatchLogic Logo" class="h-14 w-auto mr-6" style="max-height:56px;">
+            <nav class="flex gap-8 text-lg font-semibold">
+                <a href="index.html" class="hover:text-cyan-700">Home</a>
+                <a href="features.html" class="hover:text-cyan-700">Features</a>
+                <a href="hardware.html" class="hover:text-cyan-700">Hardware</a>
+                <a href="blog.html" class="hover:text-cyan-700">Blog</a>
+                <a href="contact.html" class="hover:text-cyan-700">Contact</a>
+            </nav>
+        </div>
     </header>
 
     <!-- Hero Section -->
     <section class="gradient-bg text-white py-16">
         <div class="container mx-auto px-6 text-center">
             <h1 class="text-5xl font-extrabold mb-6">BatchLogic Accounting</h1>
-            <p class="text-2xl mb-4">Enterprise Financial Management for Concrete Producers</p>
-            <p class="text-xl text-cyan-100 max-w-3xl mx-auto">Complete ERP accounting integrated with your batch plant control. From ticket to invoice to financial statement—all in one platform.</p>
+            <p class="text-2xl mb-4">Enterprise Financial Management Built for Batch Plant Operations</p>
+            <p class="text-xl text-cyan-100 max-w-3xl mx-auto">Complete ERP accounting with real-time visibility from batch ticket to balance sheet. Features comparable to Sage Intacct, purpose-built for concrete producers.</p>
         </div>
     </section>
 
@@ -53,45 +109,43 @@
             <!-- The Full ERP Advantage -->
             <section class="mb-16">
                 <div class="text-center mb-12">
-                    <h2 class="text-4xl font-extrabold mb-4">The Power of Batch-to-Cash Integration</h2>
-                    <p class="text-xl text-gray-600 max-w-4xl mx-auto">Unlike standalone accounting software, BatchLogic Accounting is seamlessly connected to your batch plant operations—tickets automatically generate invoices, materials flow to COGS, and every load is tracked from plant to payment.</p>
+                    <h2 class="text-4xl font-extrabold mb-4">The Power of Fully Integrated ERP Accounting</h2>
+                    <p class="text-xl text-gray-600 max-w-4xl mx-auto">Unlike standalone accounting software, BatchLogic Accounting is the financial backbone of your complete ERP system—seamlessly connecting batch operations, inventory, dispatch, HR, and quality control into one unified platform.</p>
                 </div>
 
                 <div class="grid md:grid-cols-2 gap-8 mb-12">
                     <div class="bg-red-50 border-2 border-red-200 rounded-xl p-8">
-                        <h3 class="text-2xl font-bold text-red-900 mb-4 flex items-center gap-3">
-                            <i data-lucide="x-circle" class="w-8 h-8"></i>
-                            Standalone Accounting Software
-                        </h3>
+                        <h3 class="text-2xl font-bold text-red-900 mb-4">❌ Standalone Accounting Software</h3>
                         <ul class="space-y-3 text-gray-700">
                             <li class="flex items-start gap-3">
                                 <span class="text-red-600 font-bold">•</span>
-                                <span>Manual ticket entry creates delays and errors</span>
+                                <span>Manual ticket entry creates errors and delays in invoicing</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-red-600 font-bold">•</span>
-                                <span>Material costs don't sync with actual batch data</span>
+                                <span>Material costs don't sync with actual batch usage</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-red-600 font-bold">•</span>
-                                <span>Disconnected dispatch and billing systems</span>
+                                <span>Per-yard profitability requires manual spreadsheets</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-red-600 font-bold">•</span>
-                                <span>No real-time visibility into per-load profitability</span>
+                                <span>Dispatch costs disconnected from financial records</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-red-600 font-bold">•</span>
-                                <span>Month-end requires reconciling multiple systems</span>
+                                <span>Real-time profitability by mix or customer is impossible</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-red-600 font-bold">•</span>
+                                <span>Month-end close takes days of reconciliation work</span>
                             </li>
                         </ul>
                     </div>
 
                     <div class="bg-green-50 border-2 border-green-200 rounded-xl p-8">
-                        <h3 class="text-2xl font-bold text-green-900 mb-4 flex items-center gap-3">
-                            <i data-lucide="check-circle" class="w-8 h-8"></i>
-                            BatchLogic Integrated Accounting
-                        </h3>
+                        <h3 class="text-2xl font-bold text-green-900 mb-4">✓ BatchLogic Integrated ERP Accounting</h3>
                         <ul class="space-y-3 text-gray-700">
                             <li class="flex items-start gap-3">
                                 <span class="text-green-600 font-bold">✓</span>
@@ -99,22 +153,31 @@
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-green-600 font-bold">✓</span>
-                                <span><strong>Real-time COGS</strong> calculated from actual material usage</span>
+                                <span><strong>Real-time COGS</strong> calculated from actual batched materials</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-green-600 font-bold">✓</span>
-                                <span><strong>Dispatch-to-billing</strong> integration with GPS tracking</span>
+                                <span><strong>Per-yard profitability</strong> tracked automatically for every load</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-green-600 font-bold">✓</span>
-                                <span><strong>Per-load profitability</strong> visible in real-time</span>
+                                <span><strong>Dispatch costs integrated</strong> with delivery tracking and GPS</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-green-600 font-bold">✓</span>
-                                <span><strong>Single source of truth</strong> for all financial data</span>
+                                <span><strong>Live profitability dashboards</strong> by mix, customer, or project</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-green-600 font-bold">✓</span>
+                                <span><strong>Month-end close in hours</strong> with automated batch-to-GL reconciliation</span>
                             </li>
                         </ul>
                     </div>
+                </div>
+
+                <div class="bg-gradient-to-r from-cyan-600 to-teal-600 text-white rounded-xl p-8 text-center">
+                    <h3 class="text-2xl font-bold mb-3">The Bottom Line</h3>
+                    <p class="text-xl">BatchLogic Accounting isn't just software—it's the financial intelligence layer that connects your entire batch plant operation, eliminating data silos and giving you complete visibility from batching to billing to profit.</p>
                 </div>
             </section>
 
@@ -126,46 +189,36 @@
                     <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
                         <div class="flex items-center mb-4">
                             <div class="bg-cyan-100 rounded-lg p-3 mr-4">
-                                <i data-lucide="file-text" class="w-8 h-8 text-cyan-600"></i>
+                                <svg class="w-8 h-8 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                                </svg>
                             </div>
                             <h3 class="text-xl font-bold">General Ledger</h3>
                         </div>
                         <ul class="space-y-2 text-gray-700 text-sm">
-                            <li>• Multi-dimensional chart of accounts</li>
-                            <li>• Multi-entity and multi-plant support</li>
-                            <li>• Automated journal entries from operations</li>
+                            <li>• Unlimited dimensions for detailed reporting</li>
+                            <li>• Multi-plant and multi-entity consolidations</li>
+                            <li>• Automated journal entries from batching</li>
+                            <li>• Inter-company transactions</li>
                             <li>• Real-time financial statements</li>
-                            <li>• Drill-down to source transactions</li>
+                            <li>• Drill-down to source batch tickets</li>
                         </ul>
                     </div>
 
                     <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
                         <div class="flex items-center mb-4">
                             <div class="bg-green-100 rounded-lg p-3 mr-4">
-                                <i data-lucide="receipt" class="w-8 h-8 text-green-600"></i>
-                            </div>
-                            <h3 class="text-xl font-bold">Accounts Receivable</h3>
-                        </div>
-                        <ul class="space-y-2 text-gray-700 text-sm">
-                            <li>• Automatic invoice generation from tickets</li>
-                            <li>• Progress billing & retention tracking</li>
-                            <li>• Customer credit limit management</li>
-                            <li>• Collections workflow automation</li>
-                            <li>• Aging reports & dunning letters</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
-                        <div class="flex items-center mb-4">
-                            <div class="bg-purple-100 rounded-lg p-3 mr-4">
-                                <i data-lucide="credit-card" class="w-8 h-8 text-purple-600"></i>
+                                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                                </svg>
                             </div>
                             <h3 class="text-xl font-bold">Accounts Payable</h3>
                         </div>
                         <ul class="space-y-2 text-gray-700 text-sm">
-                            <li>• AI-powered invoice capture</li>
-                            <li>• 3-way PO matching automation</li>
+                            <li>• AI-powered bill capture & data entry</li>
+                            <li>• 3-way PO matching with material receipts</li>
                             <li>• Vendor management & 1099 tracking</li>
+                            <li>• Automated payment workflows</li>
                             <li>• Early payment discount optimization</li>
                             <li>• ACH & check printing integration</li>
                         </ul>
@@ -173,8 +226,29 @@
 
                     <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
                         <div class="flex items-center mb-4">
+                            <div class="bg-purple-100 rounded-lg p-3 mr-4">
+                                <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 3.5 2 3.5-2 3.5 2zM10 8.5a.5.5 0 11-1 0 .5.5 0 011 0zm5 5a.5.5 0 11-1 0 .5.5 0 011 0z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold">Accounts Receivable</h3>
+                        </div>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>• Automated invoice generation from tickets</li>
+                            <li>• Progress billing & retention tracking</li>
+                            <li>• Electronic payment processing</li>
+                            <li>• Collections management workflows</li>
+                            <li>• Customer credit monitoring</li>
+                            <li>• Aging reports & automated dunning</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
+                        <div class="flex items-center mb-4">
                             <div class="bg-yellow-100 rounded-lg p-3 mr-4">
-                                <i data-lucide="landmark" class="w-8 h-8 text-yellow-600"></i>
+                                <svg class="w-8 h-8 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
                             </div>
                             <h3 class="text-xl font-bold">Cash Management</h3>
                         </div>
@@ -183,6 +257,7 @@
                             <li>• Automated bank reconciliation</li>
                             <li>• Cash flow forecasting</li>
                             <li>• Bank feed integration</li>
+                            <li>• Payment processing tracking</li>
                             <li>• Treasury management tools</li>
                         </ul>
                     </div>
@@ -190,149 +265,217 @@
                     <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
                         <div class="flex items-center mb-4">
                             <div class="bg-red-100 rounded-lg p-3 mr-4">
-                                <i data-lucide="target" class="w-8 h-8 text-red-600"></i>
+                                <svg class="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                                </svg>
                             </div>
-                            <h3 class="text-xl font-bold">Job Costing</h3>
+                            <h3 class="text-xl font-bold">Cost Analysis</h3>
                         </div>
                         <ul class="space-y-2 text-gray-700 text-sm">
-                            <li>• Per-load profitability tracking</li>
-                            <li>• Project-based cost accumulation</li>
-                            <li>• Budget vs. actual analysis</li>
-                            <li>• Profit margin by customer/job</li>
-                            <li>• Mix design cost optimization</li>
+                            <li>• Per-yard cost tracking by mix design</li>
+                            <li>• Job/project cost accumulation</li>
+                            <li>• Per-load profitability analysis</li>
+                            <li>• Budget vs. actual variance reporting</li>
+                            <li>• Customer and mix profitability</li>
+                            <li>• Material waste and variance tracking</li>
                         </ul>
                     </div>
 
                     <div class="bg-white border border-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
                         <div class="flex items-center mb-4">
                             <div class="bg-indigo-100 rounded-lg p-3 mr-4">
-                                <i data-lucide="package" class="w-8 h-8 text-indigo-600"></i>
+                                <svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                                </svg>
                             </div>
-                            <h3 class="text-xl font-bold">Inventory & COGS</h3>
+                            <h3 class="text-xl font-bold">Fixed Assets</h3>
                         </div>
                         <ul class="space-y-2 text-gray-700 text-sm">
-                            <li>• Real-time material cost tracking</li>
-                            <li>• Automatic COGS from batch data</li>
-                            <li>• Weighted average costing</li>
-                            <li>• Inventory valuation reports</li>
-                            <li>• Variance analysis</li>
+                            <li>• Complete asset lifecycle tracking</li>
+                            <li>• Multiple depreciation methods</li>
+                            <li>• Book vs. tax depreciation</li>
+                            <li>• Asset transfers & disposals</li>
+                            <li>• Plant equipment management</li>
+                            <li>• Compliance reporting (ASC 842)</li>
                         </ul>
                     </div>
 
                 </div>
             </section>
 
-            <!-- Batch-to-Cash Flow -->
-            <section class="mb-16 bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl p-12">
-                <h2 class="text-3xl font-extrabold mb-8 text-center">The Batch-to-Cash Flow</h2>
-                <p class="text-center text-xl text-gray-700 mb-12 max-w-4xl mx-auto">See how BatchLogic connects your plant operations directly to your financial systems with zero manual intervention.</p>
+            <!-- ERP Integration Benefits -->
+            <section class="mb-16 bg-gradient-to-br from-cyan-50 to-teal-50 rounded-2xl p-12">
+                <h2 class="text-3xl font-extrabold mb-8 text-center">Seamless Integration Across Your Entire Operation</h2>
+                <p class="text-center text-xl text-gray-700 mb-12 max-w-4xl mx-auto">See how BatchLogic Accounting connects with every module in your ERP system to create a single source of financial truth.</p>
 
-                <div class="max-w-4xl mx-auto">
-                    <div class="relative">
-                        <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-cyan-500 to-cyan-700 hidden md:block"></div>
+                <div class="grid md:grid-cols-2 gap-8">
 
-                        <div class="space-y-12">
-                            <div class="relative grid md:grid-cols-2 gap-8 items-center">
-                                <div class="md:text-right">
-                                    <div class="inline-block bg-cyan-100 text-cyan-700 px-4 py-2 rounded-full text-sm font-bold mb-4">STEP 1</div>
-                                    <h3 class="text-xl font-bold mb-2">Batch Ticket Created</h3>
-                                    <p class="text-gray-600">Every load creates a ticket with exact material quantities, customer info, and delivery details.</p>
-                                </div>
-                                <div class="md:pl-12">
-                                    <div class="bg-white p-4 rounded-xl border-2 border-cyan-200 shadow">
-                                        <i data-lucide="file-plus" class="w-10 h-10 text-cyan-600"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="relative grid md:grid-cols-2 gap-8 items-center">
-                                <div class="md:order-2">
-                                    <div class="inline-block bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-bold mb-4">STEP 2</div>
-                                    <h3 class="text-xl font-bold mb-2">Invoice Generated</h3>
-                                    <p class="text-gray-600">Tickets automatically convert to invoices based on customer pricing agreements and terms.</p>
-                                </div>
-                                <div class="md:order-1 md:pr-12 md:text-right">
-                                    <div class="bg-white p-4 rounded-xl border-2 border-green-200 shadow inline-block">
-                                        <i data-lucide="file-text" class="w-10 h-10 text-green-600"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="relative grid md:grid-cols-2 gap-8 items-center">
-                                <div class="md:text-right">
-                                    <div class="inline-block bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-bold mb-4">STEP 3</div>
-                                    <h3 class="text-xl font-bold mb-2">COGS Posted</h3>
-                                    <p class="text-gray-600">Material costs from actual batch weights flow directly to cost of goods sold.</p>
-                                </div>
-                                <div class="md:pl-12">
-                                    <div class="bg-white p-4 rounded-xl border-2 border-purple-200 shadow">
-                                        <i data-lucide="calculator" class="w-10 h-10 text-purple-600"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="relative grid md:grid-cols-2 gap-8 items-center">
-                                <div class="md:order-2">
-                                    <div class="inline-block bg-yellow-100 text-yellow-700 px-4 py-2 rounded-full text-sm font-bold mb-4">STEP 4</div>
-                                    <h3 class="text-xl font-bold mb-2">Payment Collected</h3>
-                                    <p class="text-gray-600">Electronic payment processing, cash application, and collections all in one system.</p>
-                                </div>
-                                <div class="md:order-1 md:pr-12 md:text-right">
-                                    <div class="bg-white p-4 rounded-xl border-2 border-yellow-200 shadow inline-block">
-                                        <i data-lucide="dollar-sign" class="w-10 h-10 text-yellow-600"></i>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-cyan-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-3">1</span>
+                            <h3 class="text-xl font-bold">Batch Operations Integration</h3>
                         </div>
+                        <ul class="space-y-2 text-gray-700">
+                            <li>✓ Batch tickets automatically create invoices with exact quantities</li>
+                            <li>✓ Material usage flows directly to COGS in real-time</li>
+                            <li>✓ Per-yard costs calculated from actual batched weights</li>
+                            <li>✓ Mix design variances captured and analyzed</li>
+                            <li>✓ Water meter corrections update material costs</li>
+                        </ul>
                     </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-green-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-3">2</span>
+                            <h3 class="text-xl font-bold">Inventory & Materials Integration</h3>
+                        </div>
+                        <ul class="space-y-2 text-gray-700">
+                            <li>✓ Cement, aggregate, and admixture costs tracked per silo/bin</li>
+                            <li>✓ Inventory values perpetually synchronized with GL</li>
+                            <li>✓ Weighted average costing for delivered materials</li>
+                            <li>✓ Automatic variance accounting for waste and spillage</li>
+                            <li>✓ Bin level monitoring linked to reorder automation</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-purple-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-3">3</span>
+                            <h3 class="text-xl font-bold">HR & Payroll Integration</h3>
+                        </div>
+                        <ul class="space-y-2 text-gray-700">
+                            <li>✓ Plant operator labor costs allocated to production overhead</li>
+                            <li>✓ Driver wages integrated with delivery costs</li>
+                            <li>✓ Benefits and burden rates applied to job costing</li>
+                            <li>✓ Certified payroll reporting for government projects</li>
+                            <li>✓ PTO accruals and tracking integrated with financials</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-yellow-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-3">4</span>
+                            <h3 class="text-xl font-bold">Sales & Order Management</h3>
+                        </div>
+                        <ul class="space-y-2 text-gray-700">
+                            <li>✓ Customer pricing contracts drive ticket pricing</li>
+                            <li>✓ Volume discounts automatically applied at invoicing</li>
+                            <li>✓ Fuel surcharges calculated and billed</li>
+                            <li>✓ Project budgets track material commitments</li>
+                            <li>✓ Customer deposits and credit limits enforced</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-red-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-3">5</span>
+                            <h3 class="text-xl font-bold">Dispatch & Delivery Integration</h3>
+                        </div>
+                        <ul class="space-y-2 text-gray-700">
+                            <li>✓ GPS-tracked delivery costs allocated to specific loads</li>
+                            <li>✓ Truck and driver efficiency metrics linked to costs</li>
+                            <li>✓ Fuel consumption tracked per delivery</li>
+                            <li>✓ Delivery milestones trigger billing events</li>
+                            <li>✓ POD (Proof of Delivery) drives AR automation</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-lg">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-indigo-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-3">6</span>
+                            <h3 class="text-xl font-bold">Quality Control Integration</h3>
+                        </div>
+                        <ul class="space-y-2 text-gray-700">
+                            <li>✓ Batch accuracy variances create cost adjustments</li>
+                            <li>✓ Rejected loads tracked with full cost impact</li>
+                            <li>✓ Slump test failures trigger warranty reserves</li>
+                            <li>✓ Quality control testing costs allocated properly</li>
+                            <li>✓ Material certification tracking for compliance</li>
+                        </ul>
+                    </div>
+
                 </div>
             </section>
 
             <!-- Industry-Specific Features -->
             <section class="mb-16">
                 <div class="bg-gray-50 rounded-2xl p-10">
-                    <h2 class="text-3xl font-extrabold mb-6 text-center">Built for Concrete Producers</h2>
-                    <p class="text-center text-lg text-gray-700 mb-10 max-w-3xl mx-auto">Generic accounting software doesn't understand your business. BatchLogic Accounting is purpose-built for the unique financial requirements of readymix and concrete operations.</p>
+                    <h2 class="text-3xl font-extrabold mb-6 text-center">Built for Batch Plant Operations</h2>
+                    <p class="text-center text-lg text-gray-700 mb-10 max-w-3xl mx-auto">Generic accounting software doesn't understand your business. BatchLogic Accounting is purpose-built for the unique financial requirements of concrete batch plant operations.</p>
 
                     <div class="grid md:grid-cols-2 gap-8">
                         <div>
-                            <h3 class="text-xl font-bold mb-4 flex items-center gap-3">
-                                <i data-lucide="truck" class="w-6 h-6 text-cyan-600"></i>
-                                Ticket-Based Billing
-                            </h3>
+                            <h3 class="text-xl font-bold mb-4">Batch Plant Costing</h3>
                             <ul class="space-y-3 text-gray-700">
                                 <li class="flex items-start gap-3">
-                                    <i data-lucide="check" class="w-5 h-5 text-green-600 flex-shrink-0 mt-1"></i>
-                                    <div><strong>Load-based invoicing:</strong> Bill by the yard, ton, or load with automatic quantity capture</div>
+                                    <svg class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <div>
+                                        <strong>Cost Per Yard Tracking:</strong> Real-time calculation of material, labor, and overhead costs per cubic yard
+                                    </div>
                                 </li>
                                 <li class="flex items-start gap-3">
-                                    <i data-lucide="check" class="w-5 h-5 text-green-600 flex-shrink-0 mt-1"></i>
-                                    <div><strong>Customer pricing:</strong> Manage complex pricing matrices with volume discounts</div>
+                                    <svg class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <div>
+                                        <strong>Cement & Admixture Allocation:</strong> Precise tracking of cement and admixture costs per batch
+                                    </div>
                                 </li>
                                 <li class="flex items-start gap-3">
-                                    <i data-lucide="check" class="w-5 h-5 text-green-600 flex-shrink-0 mt-1"></i>
-                                    <div><strong>Fuel surcharges:</strong> Automatic surcharge calculation based on current fuel prices</div>
+                                    <svg class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <div>
+                                        <strong>Batch Accuracy Impact:</strong> Financial impact analysis of over/under batching
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <div>
+                                        <strong>Material Waste Tracking:</strong> Capture and analyze spillage, returns, and washout costs
+                                    </div>
                                 </li>
                             </ul>
                         </div>
 
                         <div>
-                            <h3 class="text-xl font-bold mb-4 flex items-center gap-3">
-                                <i data-lucide="bar-chart-3" class="w-6 h-6 text-cyan-600"></i>
-                                Profitability Analytics
-                            </h3>
+                            <h3 class="text-xl font-bold mb-4">Ready-Mix Billing</h3>
                             <ul class="space-y-3 text-gray-700">
                                 <li class="flex items-start gap-3">
-                                    <i data-lucide="check" class="w-5 h-5 text-green-600 flex-shrink-0 mt-1"></i>
-                                    <div><strong>Per-load margins:</strong> See exactly how much you made on every delivery</div>
+                                    <svg class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <div>
+                                        <strong>Ticket-Based Invoicing:</strong> Automatic invoice generation from batch tickets with exact quantities
+                                    </div>
                                 </li>
                                 <li class="flex items-start gap-3">
-                                    <i data-lucide="check" class="w-5 h-5 text-green-600 flex-shrink-0 mt-1"></i>
-                                    <div><strong>Customer profitability:</strong> Identify your most and least profitable customers</div>
+                                    <svg class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <div>
+                                        <strong>Complex Pricing Matrices:</strong> Support for volume discounts, fuel surcharges, and zone pricing
+                                    </div>
                                 </li>
                                 <li class="flex items-start gap-3">
-                                    <i data-lucide="check" class="w-5 h-5 text-green-600 flex-shrink-0 mt-1"></i>
-                                    <div><strong>Mix profitability:</strong> Optimize pricing by understanding true costs per mix</div>
+                                    <svg class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <div>
+                                        <strong>Short Load Charges:</strong> Automatic calculation and billing for minimum load requirements
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <div>
+                                        <strong>Standby & Overtime Billing:</strong> Track and bill for truck wait time and after-hours deliveries
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -340,39 +483,91 @@
                 </div>
             </section>
 
-            <!-- IntraSync Integration -->
+            <!-- AI-Powered Features -->
             <section class="mb-16">
-                <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-2xl p-10">
-                    <div class="flex items-center gap-4 mb-6">
-                        <i data-lucide="puzzle" class="w-12 h-12"></i>
-                        <h2 class="text-3xl font-extrabold">Part of the IntraSync Industrial Platform</h2>
+                <div class="bg-gradient-to-r from-cyan-600 to-blue-600 text-white rounded-xl p-8">
+                    <h2 class="text-2xl font-bold mb-4">AI-Powered Financial Intelligence with BatchChat</h2>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h3 class="font-bold mb-2">BatchChat AI Assistant</h3>
+                            <ul class="space-y-2 text-cyan-100">
+                                <li>• Ask questions about profitability: "What was my margin on 4000 PSI last month?"</li>
+                                <li>• Get instant insights: "Which customers are most profitable this quarter?"</li>
+                                <li>• Financial forecasting: "Project my cement costs for next month"</li>
+                                <li>• Variance analysis: "Why did my cost per yard increase in October?"</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="font-bold mb-2">Intelligent Automation</h3>
+                            <ul class="space-y-2 text-cyan-100">
+                                <li>• AI bill capture extracts data from any invoice format</li>
+                                <li>• Smart GL coding learns from your historical patterns</li>
+                                <li>• Automated vendor matching and duplicate detection</li>
+                                <li>• Predictive cash flow forecasting based on seasonality</li>
+                            </ul>
+                        </div>
                     </div>
-                    <p class="text-xl text-blue-100 mb-8">BatchLogic Accounting integrates with the complete IntraSync Industrial ecosystem, including CastLogic ERP for precast manufacturing and AggLogic for aggregate operations.</p>
-                    <div class="grid md:grid-cols-3 gap-6">
-                        <div class="bg-white/10 rounded-lg p-6">
-                            <h3 class="font-bold mb-2">CastLogic ERP</h3>
-                            <p class="text-blue-100 text-sm">Full ERP for precast manufacturers with project accounting, production planning, and integrated financials.</p>
-                        </div>
-                        <div class="bg-white/10 rounded-lg p-6">
-                            <h3 class="font-bold mb-2">BatchLogic</h3>
-                            <p class="text-blue-100 text-sm">Advanced batch plant control with AI automation and proprietary sensors for readymix operations.</p>
-                        </div>
-                        <div class="bg-white/10 rounded-lg p-6">
-                            <h3 class="font-bold mb-2">AggLogic</h3>
-                            <p class="text-blue-100 text-sm">Readymix & aggregates software with drone scanning, AI quality control, and operations management.</p>
-                        </div>
+                </div>
+            </section>
+
+            <!-- Reporting & Analytics -->
+            <section class="mb-16">
+                <h2 class="text-3xl font-extrabold mb-8 text-center">Powerful Reporting & Real-Time Dashboards</h2>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="bg-white rounded-xl shadow-lg p-6 border-t-4 border-cyan-600">
+                        <h3 class="text-xl font-bold mb-4">Financial Statements</h3>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>✓ Balance Sheet</li>
+                            <li>✓ Income Statement (P&L)</li>
+                            <li>✓ Cash Flow Statement</li>
+                            <li>✓ Statement of Changes in Equity</li>
+                            <li>✓ Multi-plant consolidated reports</li>
+                            <li>✓ Multi-period comparative analysis</li>
+                        </ul>
                     </div>
-                    <div class="text-center mt-8">
-                        <a href="https://intrasyncindustrial.com" class="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-blue-50 transition">Explore IntraSync Industrial →</a>
+
+                    <div class="bg-white rounded-xl shadow-lg p-6 border-t-4 border-green-600">
+                        <h3 class="text-xl font-bold mb-4">Operational Reports</h3>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>✓ Per-Yard Profitability by Mix</li>
+                            <li>✓ Customer Profitability Analysis</li>
+                            <li>✓ Material Cost Variance Reports</li>
+                            <li>✓ Job/Project Costing Details</li>
+                            <li>✓ Aged AR/AP Reports</li>
+                            <li>✓ Vendor Spend Analysis</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-lg p-6 border-t-4 border-purple-600">
+                        <h3 class="text-xl font-bold mb-4">Batch Plant Analytics</h3>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>✓ Batch Accuracy & Waste Tracking</li>
+                            <li>✓ Material Usage vs. Budget</li>
+                            <li>✓ Mix Design Cost Analysis</li>
+                            <li>✓ Plant Efficiency Metrics</li>
+                            <li>✓ Delivery Cost per Mile</li>
+                            <li>✓ Truck Utilization & Profitability</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mt-8 bg-cyan-600 text-white rounded-xl p-8 text-center">
+                    <h3 class="text-2xl font-bold mb-3">Custom Dashboard Builder</h3>
+                    <p class="text-lg mb-4">Create unlimited custom dashboards with drag-and-drop widgets showing the exact KPIs you need:</p>
+                    <div class="grid md:grid-cols-4 gap-4 text-sm">
+                        <div>Revenue by Mix Design</div>
+                        <div>Gross Margin by Customer</div>
+                        <div>Material Cost Trends</div>
+                        <div>Days Sales Outstanding</div>
                     </div>
                 </div>
             </section>
 
             <!-- CTA Section -->
             <section class="text-center">
-                <div class="bg-gradient-to-r from-cyan-600 to-cyan-800 rounded-2xl p-12 text-white">
+                <div class="bg-gradient-to-r from-cyan-600 to-teal-600 rounded-2xl p-12 text-white">
                     <h2 class="text-4xl font-extrabold mb-4">Ready to Transform Your Financial Operations?</h2>
-                    <p class="text-xl mb-8 max-w-3xl mx-auto">Experience the power of batch-to-cash integration. See how BatchLogic connects your plant operations directly to your financial systems.</p>
+                    <p class="text-xl mb-8 max-w-3xl mx-auto">Experience the power of fully integrated ERP accounting built specifically for batch plant operations. See how BatchLogic connects your entire operation from batching to billing to profit.</p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center">
                         <a href="contact.html" class="bg-white text-cyan-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition">Schedule a Demo</a>
                         <a href="features.html" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-cyan-600 transition">Explore All Features</a>
@@ -383,16 +578,12 @@
         </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-gray-50 text-gray-800 mt-16">
+    <footer class="bg-gray-50 text-gray-800">
         <div class="container mx-auto px-6 py-16">
             <div class="grid md:grid-cols-5 gap-8 mb-12">
                 <div class="md:col-span-2">
-                    <div class="flex items-center mb-4">
-                        <img src="https://intrasyncindustrial.com/images/logo.jpg" alt="IntraSync Industrial Logo" class="h-10 mr-3" onerror="this.onerror=null;this.src='https://placehold.co/160x40/06b6d4/FFFFFF?text=BatchLogic';">
-                        <span class="text-xl font-bold gradient-text">BatchLogic</span>
-                    </div>
-                    <p class="text-gray-600 mb-6">State-of-the-art batch plant control system with complete ERP capabilities for concrete producers. Part of the IntraSync Industrial platform.</p>
+                    <img src="logo.png" alt="BatchLogic" class="h-10 mb-4">
+                    <p class="text-gray-600 mb-6">Complete batch plant control and ERP platform for concrete producers. Automate your operations from batching to billing.</p>
                     <div class="flex gap-4">
                         <a href="https://www.linkedin.com/company/intrasync-industrial" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-cyan-600 rounded-full flex items-center justify-center hover:bg-cyan-700 transition">
                             <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
@@ -400,31 +591,34 @@
                     </div>
                 </div>
                 <div>
-                    <h3 class="font-bold text-gray-900 mb-4">Product</h3>
+                    <h3 class="font-bold text-gray-900 mb-4">ERP Modules</h3>
                     <ul class="space-y-2">
-                        <li><a href="features.html" class="hover:text-cyan-600 transition">All Features</a></li>
                         <li><a href="accounting.html" class="hover:text-cyan-600 transition">Accounting</a></li>
-                        <li><a href="hardware.html" class="hover:text-cyan-600 transition">Hardware</a></li>
-                        <li><a href="integration.html" class="hover:text-cyan-600 transition">Integration</a></li>
+                        <li><a href="hr.html" class="hover:text-cyan-600 transition">HR & Payroll</a></li>
+                        <li><a href="dispatch.html" class="hover:text-cyan-600 transition">Dispatch</a></li>
+                        <li><a href="features.html" class="hover:text-cyan-600 transition">All Features</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="font-bold text-gray-900 mb-4">Resources</h3>
                     <ul class="space-y-2">
                         <li><a href="blog.html" class="hover:text-cyan-600 transition">Blog</a></li>
-                        <li><a href="faq.html" class="hover:text-cyan-600 transition">FAQ</a></li>
+                        <li><a href="hardware.html" class="hover:text-cyan-600 transition">Hardware</a></li>
+                        <li><a href="integration.html" class="hover:text-cyan-600 transition">Integration</a></li>
                         <li><a href="contact.html" class="hover:text-cyan-600 transition">Support</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="font-bold text-gray-900 mb-4">Company</h3>
+                    <h3 class="font-bold text-gray-900 mb-4">IntraSync Family</h3>
                     <ul class="space-y-2">
+                        <li><a href="https://intrasyncindustrial.com" class="hover:text-cyan-600 transition">CastLogic (Precast ERP)</a></li>
+                        <li><a href="https://intrasyncindustrial.com" class="hover:text-cyan-600 transition">AggLogic (Aggregates)</a></li>
                         <li><a href="about.html" class="hover:text-cyan-600 transition">About Us</a></li>
                         <li><a href="contact.html" class="hover:text-cyan-600 transition">Contact</a></li>
-                        <li><a href="https://intrasyncindustrial.com" class="hover:text-cyan-600 transition">IntraSync Industrial</a></li>
                     </ul>
                 </div>
             </div>
+
             <div class="border-t border-gray-300 pt-8 flex flex-col md:flex-row justify-between items-center">
                 <p class="text-gray-500 text-sm">&copy; 2025 IntraSync Industrial. All rights reserved.</p>
                 <div class="flex gap-6 text-sm mt-4 md:mt-0">
@@ -434,9 +628,5 @@
             </div>
         </div>
     </footer>
-
-    <script>
-        lucide.createIcons();
-    </script>
 </body>
 </html>
