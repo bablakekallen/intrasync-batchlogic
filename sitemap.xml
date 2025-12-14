@@ -1,57 +1,648 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- BatchLogic - Batch Plant Control & Automation by IntraSync Industrial -->
+
+    <!-- Core Pages -->
     <url>
         <loc>https://batchlogic.intrasyncindustrial.com/</loc>
-        <lastmod>2025-11-15</lastmod>
+        <lastmod>2025-12-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/modules.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/qc.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Feature Pages -->
+    <url>
         <loc>https://batchlogic.intrasyncindustrial.com/features.html</loc>
-        <lastmod>2025-11-15</lastmod>
+        <lastmod>2025-12-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://batchlogic.intrasyncindustrial.com/hardware.html</loc>
-        <lastmod>2025-11-15</lastmod>
+        <lastmod>2025-12-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://batchlogic.intrasyncindustrial.com/integration.html</loc>
-        <lastmod>2025-11-15</lastmod>
+        <lastmod>2025-12-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://batchlogic.intrasyncindustrial.com/automation.html</loc>
-        <lastmod>2025-11-15</lastmod>
+        <lastmod>2025-12-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
+
+    <!-- ERP Module Pages -->
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/accounting.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/hr.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/dispatch.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Company Pages -->
     <url>
         <loc>https://batchlogic.intrasyncindustrial.com/about.html</loc>
-        <lastmod>2025-11-15</lastmod>
+        <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://batchlogic.intrasyncindustrial.com/faq.html</loc>
-        <lastmod>2025-11-15</lastmod>
+        <lastmod>2025-12-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/contact.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Legal Pages -->
+    <url>
         <loc>https://batchlogic.intrasyncindustrial.com/privacy.html</loc>
-        <lastmod>2025-11-15</lastmod>
+        <lastmod>2025-12-14</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://batchlogic.intrasyncindustrial.com/terms.html</loc>
-        <lastmod>2025-11-15</lastmod>
+        <lastmod>2025-12-14</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
+    </url>
+
+    <!-- Blog Posts - AI & Automation -->
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/ai-batch-optimization.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/what-is-batch-plant-automation.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-plc-programming.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/scada-systems-concrete-batching.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/cloud-based-batch-management.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-strength-prediction.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-data-analytics.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog Posts - Batching Accuracy & Quality -->
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-accuracy-standards.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/moisture-sensors-concrete-batching.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/reducing-cement-waste-batching.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/load-cell-calibration-guide.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-mix-design-optimization.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/water-cement-ratio-control.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/admixture-dispensing-accuracy.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-quality-testing-automation.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-slump-control.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-uniformity-standards.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-weight-tolerances.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-air-content-control.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-temperature-monitoring.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/aggregate-moisture-compensation.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/aggregate-gradation-impact.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-testing-frequency.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-quality-certifications.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-testing-labs.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/admixture-compatibility.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/aggregate-testing-requirements.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog Posts - Plant Operations -->
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-software-comparison.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-maintenance-schedule.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-ticketing-systems.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/aggregate-bin-management.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-energy-efficiency.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-safety-protocols.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-cycle-time-optimization.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/dust-control-batch-plants.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-troubleshooting-guide.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-inventory-management.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/mobile-batch-plant-operations.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-roi-calculation.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/cement-silo-management.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-networking.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-cybersecurity.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/weigh-hopper-design.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-mixer-efficiency.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-sequence-optimization.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-grounding.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-expansion.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-spare-parts.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-staffing.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-operator-training.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-startup-guide.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-benchmarking.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-lean-manufacturing.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-emergency-procedures.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-communication.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog Posts - Specialty Concrete -->
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/fiber-reinforced-concrete-batching.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/colored-concrete-batching.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/self-consolidating-concrete-batching.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/pervious-concrete-production.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/high-strength-concrete-batching.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/fly-ash-batching-considerations.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/slag-cement-batching.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/silica-fume-dispensing.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog Posts - Weather & Temperature -->
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/winter-batching-challenges.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/hot-weather-concrete-batching.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/ice-batching-systems.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-weather-protection.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog Posts - Dispatch & Delivery -->
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/ready-mix-dispatch-integration.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/automated-truck-loading.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-delivery-scheduling.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-truck-turnaround.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-pump-coordination.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-customer-portal.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/ready-mix-pricing-strategies.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog Posts - Environmental & Sustainability -->
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/reclaimed-water-batching.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-washout-management.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-noise-reduction.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-lighting-requirements.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-truck-drum-cleaning.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-permit-requirements.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-sustainability-metrics.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/epd-generation-concrete.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/carbon-footprint-concrete-batching.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/concrete-waste-reduction.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-water-treatment.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/aggregate-stockpile-management.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog Posts - Security & Compliance -->
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-insurance.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://batchlogic.intrasyncindustrial.com/blog/batch-plant-security.html</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
 </urlset>
