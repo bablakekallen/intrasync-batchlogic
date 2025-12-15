@@ -6,17 +6,17 @@ Part of the IntraSync Industrial platform family.
 
 ## Overview
 
-BatchLogic is revolutionary batch plant control software combining proprietary hardware, universal equipment integration, AI-powered automation, and real-time quality management—all in one unified platform.
+BatchLogic is revolutionary batch plant control software combining universal equipment integration, AI-powered automation, and real-time quality management—all in one unified platform. Works with any hardware that digitally records data.
 
 ## Key Features
 
-### Proprietary Hardware
-- **IntraSync Load Cells** - ±0.1% accuracy (10x better than standard equipment)
-- **Industrial Control Unit** - Real-time processing with multi-protocol support
-- **Smart Sensors** - Moisture, temperature, and admixture monitoring
-- **10-Year Warranty** - NIST certified annual calibration included
+### Universal Equipment Integration
+- **Works with any hardware** that digitally records data—no proprietary equipment required
+- **Load cells** from any manufacturer
+- **PLCs and controllers** - Allen-Bradley, Siemens, and more
+- **Existing sensors** - Keep your current investment
 
-### Universal Integration
+### Equipment Compatibility
 - Works with ALL major equipment: Command Alkon, ConTech, Astec, Liebherr, Hess, Elkon, Olin, and more
 - Three integration modes: Overlay, Full Replacement, Hybrid
 - Modbus, Ethernet/IP, Profinet support
@@ -54,7 +54,7 @@ BatchLogic is revolutionary batch plant control software combining proprietary h
 - **Frontend**: HTML5, Tailwind CSS, Lucide Icons
 - **Design**: Mobile-first responsive design with cyan/blue gradient
 - **SEO**: Optimized with Schema.org markup
-- **Performance**: Fast-loading, accessible, 99.9% uptime SLA
+- **Performance**: Fast-loading, accessible, 99.5% uptime SLA
 - **Security**: Enterprise-grade encryption, SOC 2 Type II compliant
 
 ## Website Structure
@@ -62,7 +62,7 @@ BatchLogic is revolutionary batch plant control software combining proprietary h
 ```
 ├── index.html              # Homepage
 ├── features.html           # Complete feature list
-├── hardware.html           # Load cells and control unit specs
+├── hardware.html           # Adaptability - equipment integration guide
 ├── integration.html        # Equipment compatibility guide
 ├── automation.html         # AI automation capabilities
 ├── about.html              # About IntraSync Industrial
@@ -105,7 +105,7 @@ Mix old and new capabilities. Keep existing equipment for some functions while B
 ### System Performance
 - Batch Cycle Time: 45-90 seconds
 - Data Update Frequency: 1-second intervals
-- System Uptime: 99.9% guaranteed
+- System Uptime: 99.5% SLA
 - Response Time: <100ms for all operations
 - Scalability: Supports 100+ concurrent batches
 
@@ -129,4 +129,4 @@ Mix old and new capabilities. Keep existing equipment for some functions while B
 
 © 2025 IntraSync Industrial. All rights reserved.
 
-Proprietary hardware and software. Patent pending on IntraSync Load Cell technology and AI optimization algorithms.
+Proprietary software. Patent pending on AI optimization algorithms.
