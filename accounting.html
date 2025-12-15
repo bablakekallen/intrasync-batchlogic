@@ -81,17 +81,23 @@
     </style>
 </head>
 <body class="bg-white text-gray-800">
-    <header class="bg-white shadow-md sticky top-0 z-50">
-        <div class="container mx-auto px-6 py-4 flex items-center">
-            <img src="logo.png" alt="BatchLogic Logo" class="h-14 w-auto mr-6" style="max-height:56px;">
-            <nav class="flex gap-8 text-lg font-semibold">
-                <a href="index.html" class="hover:text-cyan-700">Home</a>
-                <a href="features.html" class="hover:text-cyan-700">Features</a>
-                <a href="hardware.html" class="hover:text-cyan-700">Hardware</a>
-                <a href="blog.html" class="hover:text-cyan-700">Blog</a>
-                <a href="contact.html" class="hover:text-cyan-700">Contact</a>
-            </nav>
-        </div>
+    <header class="bg-white/95 backdrop-blur-md sticky top-0 z-50 border-b border-cyan-200">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center" aria-label="IntraSync BatchLogic Home">
+                <img src="logo.png" alt="BatchLogic Logo" class="h-12 mr-3">
+                <span class="text-2xl font-bold gradient-text">BatchLogic</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="index.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">Home</a>
+                <a href="modules.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">Modules</a>
+                <a href="hardware.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">Adaptability</a>
+                <a href="integration.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">Integration</a>
+                <a href="qc.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">Quality Control</a>
+                <a href="blog.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">Blog</a>
+                <a href="about.html" class="text-gray-600 hover:text-cyan-600 transition-colors font-medium">About</a>
+                <a href="contact.html" class="bg-gradient-to-r from-cyan-500 to-cyan-600 text-white font-semibold px-6 py-2.5 rounded-lg hover:from-cyan-600 hover:to-cyan-700 transition-all transform hover:scale-105 shadow-lg">Request Demo</a>
+            </div>
+        </nav>
     </header>
 
     <!-- Hero Section -->
@@ -578,53 +584,70 @@
         </div>
     </main>
 
-    <footer class="bg-gray-50 text-gray-800">
+    <footer class="bg-gray-900 text-white">
         <div class="container mx-auto px-6 py-16">
-            <div class="grid md:grid-cols-5 gap-8 mb-12">
-                <div class="md:col-span-2">
-                    <img src="logo.png" alt="BatchLogic" class="h-10 mb-4">
-                    <p class="text-gray-600 mb-6">Complete batch plant control and ERP platform for concrete producers. Automate your operations from batching to billing.</p>
-                    <div class="flex gap-4">
-                        <a href="https://www.linkedin.com/company/intrasync-industrial" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-cyan-600 rounded-full flex items-center justify-center hover:bg-cyan-700 transition">
-                            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-                        </a>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src="logo.png" alt="BatchLogic Logo" class="h-10 mr-3">
+                        <span class="text-xl font-bold gradient-text">BatchLogic</span>
                     </div>
+                    <p class="text-gray-400 leading-relaxed">State-of-the-art batch plant control system for concrete producers.</p>
+                    <address class="mt-4 text-gray-400 not-italic">
+                        <p>1401 21st Street Suite R<br>Sacramento, CA 95811</p>
+                        <p class="mt-2"><a href="tel:+17075643666" class="hover:text-white">(707) 564-3666</a></p>
+                    </address>
                 </div>
                 <div>
-                    <h3 class="font-bold text-gray-900 mb-4">ERP Modules</h3>
-                    <ul class="space-y-2">
-                        <li><a href="accounting.html" class="hover:text-cyan-600 transition">Accounting</a></li>
-                        <li><a href="hr.html" class="hover:text-cyan-600 transition">HR & Payroll</a></li>
-                        <li><a href="dispatch.html" class="hover:text-cyan-600 transition">Dispatch</a></li>
-                        <li><a href="features.html" class="hover:text-cyan-600 transition">All Features</a></li>
+                    <h4 class="font-semibold mb-4 tracking-wider uppercase text-gray-400">Platform</h4>
+                    <ul class="space-y-3">
+                        <li><a href="modules.html" class="text-gray-300 hover:text-white">All Modules</a></li>
+                        <li><a href="hardware.html" class="text-gray-300 hover:text-white">Adaptability</a></li>
+                        <li><a href="automation.html" class="text-gray-300 hover:text-white">Automation</a></li>
+                        <li><a href="qc.html" class="text-gray-300 hover:text-white">Quality Control</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="font-bold text-gray-900 mb-4">Resources</h3>
-                    <ul class="space-y-2">
-                        <li><a href="blog.html" class="hover:text-cyan-600 transition">Blog</a></li>
-                        <li><a href="hardware.html" class="hover:text-cyan-600 transition">Hardware</a></li>
-                        <li><a href="integration.html" class="hover:text-cyan-600 transition">Integration</a></li>
-                        <li><a href="contact.html" class="hover:text-cyan-600 transition">Support</a></li>
+                    <h4 class="font-semibold mb-4 tracking-wider uppercase text-gray-400">ERP Modules</h4>
+                    <ul class="space-y-3">
+                        <li><a href="accounting.html" class="text-gray-300 hover:text-white">Accounting</a></li>
+                        <li><a href="hr.html" class="text-gray-300 hover:text-white">HR & Payroll</a></li>
+                        <li><a href="dispatch.html" class="text-gray-300 hover:text-white">Dispatch</a></li>
+                        <li><a href="schedule.html" class="text-gray-300 hover:text-white">Scheduling</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="font-bold text-gray-900 mb-4">IntraSync Family</h3>
-                    <ul class="space-y-2">
-                        <li><a href="https://intrasyncindustrial.com" class="hover:text-cyan-600 transition">CastLogic (Precast ERP)</a></li>
-                        <li><a href="https://intrasyncindustrial.com" class="hover:text-cyan-600 transition">AggLogic (Aggregates)</a></li>
-                        <li><a href="about.html" class="hover:text-cyan-600 transition">About Us</a></li>
-                        <li><a href="contact.html" class="hover:text-cyan-600 transition">Contact</a></li>
+                    <h4 class="font-semibold mb-4 tracking-wider uppercase text-gray-400">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="about.html" class="text-gray-300 hover:text-white">About Us</a></li>
+                        <li><a href="blog.html" class="text-gray-300 hover:text-white">Blog</a></li>
+                        <li><a href="faq.html" class="text-gray-300 hover:text-white">FAQ</a></li>
+                        <li><a href="contact.html" class="text-gray-300 hover:text-white">Contact</a></li>
+                        <li><a href="privacy.html" class="text-gray-300 hover:text-white">Privacy</a></li>
                     </ul>
                 </div>
             </div>
-
-            <div class="border-t border-gray-300 pt-8 flex flex-col md:flex-row justify-between items-center">
-                <p class="text-gray-500 text-sm">&copy; 2025 IntraSync Industrial. All rights reserved.</p>
-                <div class="flex gap-6 text-sm mt-4 md:mt-0">
-                    <a href="privacy.html" class="hover:text-cyan-600 transition">Privacy Policy</a>
-                    <a href="terms.html" class="hover:text-cyan-600 transition">Terms of Service</a>
+            <!-- IntraSync Product Family -->
+            <div class="mt-12 border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row items-center justify-center gap-6">
+                    <span class="text-gray-400 text-sm">Also from IntraSync:</span>
+                    <div class="flex items-center gap-6">
+                        <a href="https://intrasyncindustrial.com" class="text-gray-300 hover:text-purple-400 transition flex items-center gap-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                            <span>CastLogic</span>
+                            <span class="text-gray-500 text-sm">Precast ERP</span>
+                        </a>
+                        <span class="text-gray-600">|</span>
+                        <a href="https://agglogic.intrasyncindustrial.com" class="text-gray-300 hover:text-amber-400 transition flex items-center gap-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path></svg>
+                            <span>AggLogic</span>
+                            <span class="text-gray-500 text-sm">Aggregates ERP</span>
+                        </a>
+                    </div>
                 </div>
+            </div>
+            <div class="mt-8 border-t border-gray-800 pt-8 text-center text-gray-500">
+                <p>&copy; 2025 IntraSync Industrial. All rights reserved.</p>
             </div>
         </div>
     </footer>
