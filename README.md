@@ -80,7 +80,7 @@ BatchLogic is revolutionary batch plant control software combining universal equ
 Run BatchLogic alongside your existing controller. Original system continues operating while BatchLogic provides enhanced control and monitoring.
 
 ### Full Replacement (3-5 days)
-Complete hardware replacement with new IntraSync controllers and sensors. Maximum accuracy and features with planned downtime.
+Complete system replacement where BatchLogic becomes your primary batch controller. We help coordinate with equipment vendors for any new sensors or controllers you choose. Maximum accuracy and features with planned downtime.
 
 ### Hybrid Mode (2-3 days)
 Mix old and new capabilities. Keep existing equipment for some functions while BatchLogic controls critical processes like weighing, moisture, and temperature.
