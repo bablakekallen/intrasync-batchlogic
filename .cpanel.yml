@@ -1,5 +1,4 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/d2v9su284tj5/public_html/batchlogic.intrasyncindustrial.com
-    - /bin/cp -R * $DEPLOYPATH/
+    - /bin/cp -R ./ /home/d2v9su284tj5/public_html/batchlogic.intrasyncindustrial.com/
