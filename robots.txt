@@ -46,5 +46,5 @@ Sitemap: https://batchlogic.intrasyncindustrial.com/sitemap.xml
 
 # IntraSync Industrial Product Family
 # - CastLogic (Precast ERP): https://intrasyncindustrial.com
-# - AggLogic (Aggregates & Readymix): https://agglogic.intrasyncindustrial.com
+# - MaterialsLogic (Aggregates & Readymix): https://materialslogic.intrasyncindustrial.com
 # - BatchLogic (Batch Plant Control): https://batchlogic.intrasyncindustrial.com

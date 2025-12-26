@@ -108,7 +108,7 @@ function generateBlogHTML(article, siteType = 'batchlogic') {
   const gradientText = isBatchLogic
     ? 'background: linear-gradient(to right, #0ea5e9, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'
     : 'background: linear-gradient(to right, #d97706, #ea580c); -webkit-background-clip: text; -webkit-text-fill-color: transparent;';
-  const siteName = isBatchLogic ? 'BatchLogic' : 'AggLogic';
+  const siteName = isBatchLogic ? 'BatchLogic' : 'MaterialsLogic';
   const siteTagline = isBatchLogic
     ? 'State-of-the-art batch plant control system for concrete producers.'
     : 'The AI-powered operating system for readymix concrete and aggregate producers.';
