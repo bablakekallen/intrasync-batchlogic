@@ -41,7 +41,7 @@ BatchLogic is revolutionary batch plant control software combining universal equ
 
 ## Results
 
-- **99.9%** Batch Accuracy
+- **98%** Batch Accuracy
 - **30%** Material Waste Reduction
 - **15%** Throughput Increase
 - **45%** Downtime Reduction (via predictive maintenance)
