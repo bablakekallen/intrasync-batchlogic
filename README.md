@@ -121,7 +121,7 @@ Mix old and new capabilities. Keep existing equipment for some functions while B
 
 **IntraSync Industrial**
 - Email: info@intrasyncindustrial.com
-- Phone: (707) 564-3666
+- Phone: (707) 640-1380
 - Address: 1401 21st Street Suite R, Sacramento, CA 95811
 - Website: https://batchlogic.intrasyncindustrial.com/
 
